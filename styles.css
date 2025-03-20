@@ -1,0 +1,172 @@
+body {
+  background-color: #00c78891;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.task-panel {
+  background-color: white;
+  width: 680px;
+  padding: 30px;
+  margin-top: 80px; 
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.input-area {
+  display: flex;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.textbox {
+  flex-grow: 1;
+  border: none;
+  background-color: #F0F4F8;
+  padding: 10px 15px;
+  outline: none;
+}
+
+.button {
+  background-color: #00C78C;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.tasklist {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tasklist li {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.tasklist label {
+  flex-grow: 1;
+}
+
+.checkbox {
+  margin-right: 15px;
+}
+
+.bin {
+  background: none;
+  border: none;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.bin:hover {
+  opacity: 1;
+}
+
+/* Weather Widget */
+.weather-widget {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 10px;
+  width: 700px;
+  text-align: center;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease;
+}
+
+.weather-widget:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.weather-widget h2 {
+  font-size: 24px;
+  margin-bottom: 12px;
+  color: #333;
+  font-weight: 700;
+}
+
+.weather-widget p {
+  margin: 8px 0;
+}
+
+.weather-widget img {
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.weather-widget .location {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.weather-widget .temp {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.weather-widget .description {
+  font-size: 18px;
+  color: #777;
+}
+
+/* World Clocks */
+.world-clocks {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.clock {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 14px 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  transition: all 0.3s ease;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.clock:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.clock p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock img {
+  margin-right: 20px;
+}
+
+.clock-display {
+  font-size: 14px;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f7f9fc;
+  width: auto;
+  display: inline-block;
+}

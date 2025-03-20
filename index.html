@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weather-widget">
+        <div id="weather-info">
+            <p>Loading weather...</p>
+        </div>
+    </div>
+    
+    <div class="world-clocks">
+        <div class="clock" id="clock-durham">
+            <p><img src="https://flagcdn.com/us.svg" alt="US Flag" width="20"> New York</p>
+            <span id="time-durham" class="clock-display">Loading...</span>
+        </div>
+        <div class="clock" id="clock-newyork">
+            <p><img src="https://flagcdn.com/us.svg" alt="US Flag" width="20"> Los Angeles </p>
+            <span id="time-newyork" class="clock-display">Loading...</span>
+        </div>
+        <div class="clock" id="clock-london">
+            <p><img src="https://flagcdn.com/gb.svg" alt="UK Flag" width="20"> London</p>
+            <span id="time-london" class="clock-display">Loading...</span>
+        </div>
+        <div class="clock" id="clock-tokyo">
+            <p><img src="https://flagcdn.com/jp.svg" alt="Japan Flag" width="20"> Tokyo</p>
+            <span id="time-tokyo" class="clock-display">Loading...</span>
+        </div>
+    </div>    
+       
+
+    <div class="task-panel">
+        <div class="input-area">
+            <input id="task-input" name="task" placeholder="Add a task" class="textbox">
+            <button class="button">+</button>
+        </div>
+        <ul class="tasklist">
+        </ul>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
